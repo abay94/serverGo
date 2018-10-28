@@ -1,5 +1,5 @@
-There is folder of package of package zsse as a module and a main.go as an example.
-As an input for this package we need to define:
+## There is folder of package of package zsse as a module and a main.go as an example. ##
+### As an input for this package we need to define: ###
  - - - -
 1. Register type ( uint )
    1. DISCRETE_OUT_COIL = 0
