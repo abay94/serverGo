@@ -1,4 +1,4 @@
-## There is folder of package of package zsse as a module and a main.go as an example. ##
+## There is folder of package of ModbusZsse as a module and a main.go as an example. ##
 ### As an input for this package we need to define: ###
  - - - -
 1. Register type ( uint )
