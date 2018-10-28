@@ -2,10 +2,10 @@ There is folder of package of package zsse as a module and a main.go as an examp
 As an input for this package we need to define:
  - - - -
 1. Register type ( uint )
-        1. DISCRETE_OUT_COIL = 0
-	2. DISCRETE_IN_COIL = 1
-	3. ANALOG_IN_REGISTER = 3
-	4. ANALOG_HOLDING_REGISTER = 4
+   1. DISCRETE_OUT_COIL = 0
+   2. DISCRETE_IN_COIL = 1
+   3. ANALOG_IN_REGISTER = 3
+   4. ANALOG_HOLDING_REGISTER = 4
    - - - -
 2. Starting address  ( uint )
 * It is a starting byte of reading or writing on the choosen register
