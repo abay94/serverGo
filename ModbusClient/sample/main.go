@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"ModbusZsse"
+	"ModbusTCP"
 	"encoding/json"
 	"io/ioutil"
 	"time"
@@ -38,12 +38,12 @@ func start(config_file_name string){
 	value_or_length := jsonElement.Value_or_length
 	dst_address := jsonElement.Dst_address
 	delay := jsonElement.Delay
-	req := ModbusZsse.Init(reg_type, start_addr, unit_addr, rw_operation, value_or_length, dst_address)
+	req := ModbusTCP.Init(reg_type, start_addr, unit_addr, rw_operation, value_or_length, dst_address)
 
 	for true {
 
 		
-		ans := ModbusZsse.Run(req)
+		ans := ModbusTCP.Run(req)
 		fmt.Println("Here is the taken data: ", ans)
 		time.Sleep(time.Duration(delay) * time.Second)
 	}
