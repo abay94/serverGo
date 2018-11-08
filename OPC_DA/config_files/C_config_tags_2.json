@@ -1,0 +1,20 @@
+{
+    "measurement" : "unit2",
+    "tags": [
+      {
+        "tagName" : "U2_Tin_AI_SCALE"
+      },
+      {
+        "tagName" : "U2_Flow_AI_SCALE"
+      },
+      {
+        "tagName" : "U2_Ngp_AI_SCALE"
+      },
+      {
+        "tagName" : "U2_Pout_AI_SCALE"
+      },
+      {
+        "tagName" : "U2_Pin_AI_SCALE"
+      }
+    ]
+  }

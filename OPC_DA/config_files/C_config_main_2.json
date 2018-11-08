@@ -1,0 +1,11 @@
+{
+    "db_IP":"192.168.1.231",
+    "db_Port":"8076",
+    "db_Name":"DB_serverC",
+    "db_UserName":"user",
+    "Db_UserPassword":"user",
+    "opcda_server_IP":"192.168.1.40",
+    "opcda_server_Port":"8100",
+    "opcda_server_ConnectionItem":"OPCServer.WinCC.1",
+    "number_of_measurements" : "3"
+  }
