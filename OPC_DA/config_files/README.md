@@ -1,4 +1,4 @@
-There are two type of config file 
+### There are two type of config file 
 - - - - 
 1. Main
 2. Tags
