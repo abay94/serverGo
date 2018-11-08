@@ -1,0 +1,9 @@
+{
+    "reg_type":4,
+    "start_addr":200,
+    "unit_addr":1,
+    "rw_operation":"R",
+    "value_or_length":10,
+    "dst_address":"192.168.1.112:502",
+    "delay":1
+  }
