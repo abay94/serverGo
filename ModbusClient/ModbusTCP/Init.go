@@ -1,10 +1,8 @@
-package ModbusZsse
+package ModbusTCP
 
 import (
 	"fmt"
 	"flag"
-	//"reflect"
-	//"time"
 )
 
 func Init(regType_in uint, raddr_in uint, uaddr_in uint, operation_in string, value_in uint, dest_in string) ( ModbusRequest){
@@ -51,7 +49,7 @@ func Run(requestHandler ModbusRequest) ([]int){
 			}
 		}
 		return need
-}
-return need
+		}
+	return need
 }
 
