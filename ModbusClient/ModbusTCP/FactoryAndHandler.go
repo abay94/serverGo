@@ -3,7 +3,7 @@
 //Author: Mina Andrawos//////
 ////////////////////////////
 
-package ModbusZsse
+package ModbusTCP
 
 import (
 	"os"
